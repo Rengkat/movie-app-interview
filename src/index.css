@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav {
+    @apply bg-[#292929] h-[140px] pt-[40px] flex justify-center lg:justify-start;
+  }
+  .banner {
+    @apply font-bold text-white text-4xl md:text-6xl lg:text-7xl w-[80%] md:w-[40%] mx-auto lg:w-[40%] lg:mx-0  leading-[50px] md:leading-[120px] text-center lg:text-left;
+  }
+}
+.hero {
+  height: 550px;
+  background-image: url("../public/Rectangle\ 5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
